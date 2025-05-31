@@ -5,16 +5,20 @@
     margin-left: 200px;
     text-align: left;
 }
-.category{
+#category{
     background: #00081d;
 }
 .card{
     background:  linear-gradient(-49deg, #410E21 0%, #0C143B 100%);
 }
+.category .card{
+    background: transparent;
+}
 .card img{
     scale: 0.9;
     transition: 0.5s;
 }
+
 .card img:hover{
     scale: 1;
 }
