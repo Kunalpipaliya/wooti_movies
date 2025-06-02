@@ -11,14 +11,48 @@
 .card{
     background:  linear-gradient(-49deg, #410E21 0%, #0C143B 100%);
 }
-.category .card{
-    background: transparent;
+.category .card,.cat-prime .card,.top-10-movies .card{
+    background: none;
 }
 .card img{
     scale: 0.9;
     transition: 0.5s;
 }
-
 .card img:hover{
     scale: 1;
+}
+.category::-webkit-scrollbar{
+    background: #1a2134;
+    height: 5px;
+}.category::-webkit-scrollbar-thumb{
+    background: #484e5d;
+}
+.see_more a{
+    color: #fff;
+    text-decoration: none;
+}
+.see_more a:hover{
+    color: red;
+}
+.cat-prime img,.top-10-movies img{
+    transform: scale(1);
+    /* overflow:hidden ; */
+}
+.cat-prime img:hover{
+   transform: scale(1.1) scalex(1) scaleY(1);
+
+
+}
+.cat-prime::-webkit-scrollbar{
+    background: #1a2134;
+    height: 2px;
+}
+.cat-prime::-webkit-scrollbar-thumb{
+    background: #484e5d;
+}
+.cat-prime .card-title:hover{
+    color: red;
+}
+.top-10{
+     background-image: linear-gradient(-30deg, #3E0E22 41%, #0D134B 71%);
 }
