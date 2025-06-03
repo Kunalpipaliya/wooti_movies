@@ -11,7 +11,7 @@
 .card{
     background:  linear-gradient(-49deg, #410E21 0%, #0C143B 100%);
 }
-.category .card,.cat-prime .card,.top-10-movies .card{
+.category .card,.cat-prime .card,.top-10-movies .card,.amazon-series .card{
     background: none;
 }
 .card img{
@@ -21,10 +21,10 @@
 .card img:hover{
     scale: 1;
 }
-.category::-webkit-scrollbar{
+.category::-webkit-scrollbar,.top-10-movies::-webkit-scrollbar{
     background: #1a2134;
     height: 5px;
-}.category::-webkit-scrollbar-thumb{
+}.category::-webkit-scrollbar-thumb,.top-10-movies::-webkit-scrollbar-thumb{
     background: #484e5d;
 }
 .see_more a{
@@ -45,7 +45,7 @@
 }
 .cat-prime::-webkit-scrollbar{
     background: #1a2134;
-    height: 2px;
+    height: 5px;
 }
 .cat-prime::-webkit-scrollbar-thumb{
     background: #484e5d;
@@ -55,4 +55,8 @@
 }
 .top-10{
      background-image: linear-gradient(-30deg, #3E0E22 41%, #0D134B 71%);
+}
+.amazon-series
+{
+    background: #00081d;
 }
