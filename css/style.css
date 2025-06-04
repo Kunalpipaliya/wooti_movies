@@ -1,3 +1,7 @@
+::selection{
+    background: yellow;
+    color: #000;
+}
 .carousel-caption h1{
     font-size: 60px;
 }
@@ -21,10 +25,10 @@
 .card img:hover{
     scale: 1;
 }
-.category::-webkit-scrollbar,.top-10-movies::-webkit-scrollbar{
+.category::-webkit-scrollbar,.top-10-movies::-webkit-scrollbar,.amazon-series-movies::-webkit-scrollbar{
     background: #1a2134;
     height: 5px;
-}.category::-webkit-scrollbar-thumb,.top-10-movies::-webkit-scrollbar-thumb{
+}.category::-webkit-scrollbar-thumb,.top-10-movies::-webkit-scrollbar-thumb,.amazon-series-movies::-webkit-scrollbar-thumb{
     background: #484e5d;
 }
 .see_more a{
@@ -59,4 +63,18 @@
 .amazon-series
 {
     background: #00081d;
+}
+#category-2{
+    background-image: linear-gradient(46deg, #000000 0%, #946D11 33%);
+}
+#Explore:hover{
+    background: red;
+    color: white;
+}
+.accordion-body
+{
+    background: #00081d;
+}
+.accordion-button{
+    background: #132144;
 }
